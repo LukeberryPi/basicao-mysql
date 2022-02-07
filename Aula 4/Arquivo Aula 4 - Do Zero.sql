@@ -8,7 +8,7 @@
 
 -- O primeiro passo é CRIAR e CONFIGURAR o banco de dados 'hashtagidiomas'.
 
--- CREATE DATABASE hashtagidiomas;
+CREATE DATABASE hashtagidiomas;
 USE hashtagidiomas;
 
 # ======================== PARTE 2 ===========================#
@@ -26,7 +26,7 @@ TABELA 1: cursos
 
 CREATE TABLE cursos (
 	id_curso INT,
-	nome_curso VARCHAR(40),
+        nome_curso VARCHAR(40),
     valor_curso DECIMAL(10, 2)
 );
 
